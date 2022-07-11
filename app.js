@@ -5,6 +5,7 @@ const MongoStore = require('connect-mongo');
 const flash = require('connect-flash');
 const methodOverride = require('method-override')
 const pageRoute=require("./routes/pageRoutes")
+const courseRoute = require('./routes/courseRoute')
 const userRoute = require('./routes/userRoute')
 const app = express();
 
@@ -55,7 +56,7 @@ app.use('*', (req, res, next) => {
 })
 app.use('/',pageRoute)
 app.use('/users',userRoute)
-
+app.use('/courses',courseRoute)
 
 
 const port = 3000 ;

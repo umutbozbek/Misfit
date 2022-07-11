@@ -12,6 +12,7 @@ router.route('/news').get(pageController.getSNewsPage)
 router.route('/trainer').get(pageController.getSTrainerPage)
 router.route('/gallery').get(pageController.getGalleryPage)
 router.route('/contact').get(pageController.getContactPage)
+router.route('/courses').get(pageController.getCoursesPage)
 
 
 

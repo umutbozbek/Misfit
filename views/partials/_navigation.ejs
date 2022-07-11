@@ -24,10 +24,10 @@
                             <a class="nav-link" href="/">Home</a>
                          </li>
                          <li class="nav-item <%= page_name ==='index' && 'active' %>" >
-                            <a class="nav-link " href="about">About</a>
+                            <a class="nav-link " href="/about">About</a>
                          </li>
                          <li class="nav-item <%= page_name ==='index' && 'active' %>">
-                            <a class="nav-link" href="service">Services</a>
+                            <a class="nav-link" href="/service">Services</a>
                          </li>
                          <% if(userIN) { %>
                            <li class="nav-item <%= page_name ==='dashboard' && 'active' %>">
@@ -35,26 +35,26 @@
                            </li>
                            <% } %>
                          <li class="nav-item <%= page_name ==='index' && 'active' %>">
-                            <a class="nav-link" href="trainer">Trainer</a>
+                            <a class="nav-link" href="/trainer">Trainer</a>
                          </li>
 
                          <li class="nav-item <%= page_name ==='index' && 'active' %>">
-                            <a class="nav-link" href="contact">Contact Us</a>
+                            <a class="nav-link" href="/contact">Contact Us</a>
                          </li>
 
                          <% if (!userIN) { %>
 
                          <li class="nav-item <%= page_name ==='login' && 'active' %>">
-                           <a class="nav-link" href="login">Login</a>
+                           <a class="nav-link" href="/login">Login</a>
                         </li>
                          <li class="nav-item <%= page_name ==='register' && 'active' %>">
-                           <a class="nav-link" href="register">Regiser</a>
+                           <a class="nav-link" href="/register">Regiser</a>
                         </li>
                       <% } %>
 
                       <% if(userIN) { %>
                         <li class="nav-item <%= page_name ==='logout' && 'active' %>">
-                           <a class="nav-link" href="users/logout">Logout</a>
+                           <a class="nav-link" href="/users/logout">Logout</a>
                         </li>
 
                         <% } %>
