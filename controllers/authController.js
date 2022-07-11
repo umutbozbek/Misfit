@@ -2,7 +2,6 @@ const bcrypt=require('bcrypt');
 const e = require('express');
 const { validationResult } = require('express-validator');
 const User=require('../models/User')
-
 const Course=require('../models/Course')
 
 exports.createUser = async (req, res) => {
@@ -92,3 +91,5 @@ exports.deleteUser = async (req, res) => {
       })
   }
 }
+
+
