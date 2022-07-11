@@ -22,6 +22,6 @@
 - slugify
 
 ## Çalıştırma
--Projeyi açtıktan sonra cd Misfit ile dosyanın içine giriniz
--npm install diyerek gerekli Dependencies leri indiriniz
--Daha sonra npm start diyerek çalıştırabilirsiniz
+- Projeyi açtıktan sonra cd Misfit ile dosyanın içine giriniz
+- npm install diyerek gerekli Dependencies leri indiriniz
+- Daha sonra npm start diyerek çalıştırabilirsiniz
